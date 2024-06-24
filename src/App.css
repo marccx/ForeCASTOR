@@ -1,0 +1,143 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+body {
+    background-color: #151515;
+    font-family: "Poppins", sans-serif;
+}
+.form-control,
+.input-group-text {
+    padding: 15px 20px;
+    background-color: #202020;
+    border-radius: 100px;
+    border: 1px solid #202020;
+    color: #fff;
+}
+.input-group-text {
+    padding: 0;
+}
+.input-group {
+    margin-bottom: 0;
+}
+.location-text {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.current-location {
+    color: #505050;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.weather-icon {
+    width: 50px;
+}
+.location-col {
+    display: none;
+}
+.location-col-open {
+    display: block;
+}
+.text-group {
+    margin-left: 10px;
+}
+.location-icon {
+    margin-right: 20px;
+}
+.form-control::placeholder {
+    color: #505050;
+}
+.form-control:focus {
+    background-color: #202020;
+    box-shadow: none;
+    color: #fff;
+    border: 1px solid #002B99;
+}
+.search-btn {
+    line-height: 14px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #202020;
+    margin: 0;
+    border-radius: 100px;
+}
+.page-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.weatherdata-row {
+    display: none;
+    margin-top: 30px;
+}
+.open-wrapper {
+    height: unset;
+    margin-top: 60px;
+}
+.open-wrapper .weatherdata-row {
+    display: flex;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 30px;
+    background: rgb(0,43,153);
+background: linear-gradient(0deg, rgba(0,43,153,0.053658963585434205) 0%, rgba(0,71,255,0.053658963585434205) 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.card-weather {
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+}
+.card-header:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-location {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.current-time {
+    font-size: 14px;
+    color: #ABABAB;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.card-header {
+    border-radius: 20px;
+    background: rgb(0,43,153);
+    background: linear-gradient(270deg, rgba(0,43,153,0.0984768907563025) 0%, rgba(0,71,255,0.10127801120448177) 100%);
+    padding: 15px 30px;
+    border: none;
+}
+.card-body {
+    padding: 0;
+    border-radius: 20px;
+    border: 2px solid #242424;
+}
+.temp {
+    font-size: 64px;
+    color: #fff;
+    font-weight: 200;
+}
+.underlogo-text {
+    color: #505050;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.feel {
+    color: #ABABAB;
+    font-size: 16px;
+}
+.temp-small {
+    font-size:40px;
+}
+.feel-temp {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
